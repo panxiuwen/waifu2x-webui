@@ -18,6 +18,10 @@ clone [Waifu2x PyTorch](https://github.com/yu45020/Waifu2x)
 ```
 git clone https://github.com/yu45020/Waifu2x
 ```
+Install  requirements
+```
+pip install paste bottle pytorch
+```
 Decompression assets.zip, then run the script
 ```
 python3 WebUI-Waifu2x-PyTorch.py
