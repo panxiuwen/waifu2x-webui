@@ -5,7 +5,7 @@ sts = waifu2x.init()
 if sts < 0:
     # cpu model
     isCpuModel = True
-sts = waifu2x.initSet(-1,8)
+sts = waifu2x.initSet(sts,8)
 
 app = bottle.default_app()
 @route('/',method='GET')
