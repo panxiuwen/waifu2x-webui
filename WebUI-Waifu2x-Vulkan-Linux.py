@@ -30,4 +30,4 @@ def do_upload():
         f.write(newData)
         f.close()
     return static_file("1.png", root="/app/waifu2x-webui")
-run(host="127.0.0.1", port=2333)
+run(host="0.0.0.0", port=2333)
